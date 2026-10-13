@@ -22,7 +22,7 @@ Gemini는 `POST`(요청 본문에 프롬프트를 담아 생성 요청), Kakao L
 | `travel_planner.py` | 실행 진입점. 입력 검증, 전체 흐름, 오류 목록 관리, 결과 저장 |
 | `llm_client.py` | Gemini 호출, 1차 추천 JSON 파싱/검증, 리포트 생성 |
 | `place_client.py` | Kakao Local 키워드 검색, 응답 필드 정리 |
-| `.env.example` | 필요한 환경변수 이름 샘플 (실제 키 없음) |
+| `.env` | 필요한 환경변수 이름 샘플 (실제 키 없음) |
 
 ## 설치
 
