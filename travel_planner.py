@@ -55,7 +55,7 @@ def parse_args() -> argparse.Namespace:
             valid = False
     if not valid:
         # 사용법(usage) 출력 후 종료 코드 2로 종료
-        parser.error(f'날짜 형식이 올바르지 않습니다: "{args.date}" (예: -date "2026-03-15")')
+        parser.error(f'날짜 형식이 올바르지 않습니다: "{args.date}" → YYYY-MM-DD 형식으로 적어주세요. (예: -date "2026-03-15")')
     return args
 
 
