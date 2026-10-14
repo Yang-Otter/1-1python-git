@@ -1,0 +1,11 @@
+# API 키
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
